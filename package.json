@@ -1,0 +1,11 @@
+{
+  "name": "tsbase",
+  "version": "1.0.0",
+  "description": "typescript base grammar",
+  "main": "index.ts",
+  "scripts": {
+    "test": "start test"
+  },
+  "author": "popo",
+  "license": "ISC"
+}
