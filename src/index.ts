@@ -52,7 +52,7 @@ console.log(yourName);
 let sName: string = `Gene`;
 let age: number = 39;
 let sentence: string = `Hello ,my name is ${sName}.
-I'll be ${age + 1} year old nexr month 
+I'll be ${age + 1} year old nexr month
 `;
 console.log(sentence);
 
@@ -86,7 +86,7 @@ console.log(c);
 let colorName: string = Color[2];
 console.log(colorName);
 
-//any 
+//any
 //不确定的变量类型(允许在编译时可以选择的包含或者移除类型检查)
 let notSure: any = 4;
 console.log(notSure);
@@ -155,5 +155,5 @@ console.log(anotherLength);
 
 
 
-
+console.log("file end");
 
