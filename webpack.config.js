@@ -4,7 +4,8 @@ const path = require("path");
 //引入插件，用来生成html文件，避免在编译之后手动添加编译结果到html文件
 const HtmlWebPackPlugin = require("html-webpack-plugin");
 //clean 插件，编译输出前清空之前编译文件，避免缓存引起的问题
-const { CleanWebPackPlugin } = require("clean-webpack-plugin");
+const { CleanWebpackPlugin } = require('clean-webpack-plugin');
+
 //webpack所有配置信息都写在此
 module.exports = {
 
@@ -33,7 +34,9 @@ module.exports = {
 
     //配置webpack插件
     plugins: [
-        new CleanWebPackPlugin(),
+        new CleanWebpackPlugin({
+            cleanAfterEveryBuildPatterns: ['dist']
+        }),
         new HtmlWebPackPlugin({
             //可以传入网页的配置
             template: "./src/temple.html" //网页模版，用于统一的样式

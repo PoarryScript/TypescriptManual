@@ -1,5 +1,8 @@
+import {sayHello } from './module/module1'
+
 console.log('Hello typescript');
 
+console.log(sayHello);
 /**
  * 基础数据类型
  */
