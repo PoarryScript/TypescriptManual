@@ -4,6 +4,10 @@
     [
       "./src/**/*"
     ]  ,
+//不包含的文件
+    "exclude":[
+      "./testexclude/*"
+    ],
   "compilerOptions": {
     /* Visit https://aka.ms/tsconfig.json to read more about this file */
 
